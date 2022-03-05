@@ -1,0 +1,30 @@
+#nodes
+5
+0
+0.25
+0.5
+0.75
+1
+#displacement BC
+#node - value
+5	.1
+#reaction force at node 
+5
+#elements
+4
+2
+1	2
+2	3
+3	4
+4	5
+#integration points
+2
+#traction BC
+#element - local_node - value
+1 	1	.1
+#body force parameter q
+1
+#Young’s modulus
+1
+
+

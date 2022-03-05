@@ -1,0 +1,34 @@
+#nodes
+9
+0
+0.125
+0.25
+0.375
+0.5
+0.625
+0.75
+0.875
+1
+#displacement BC
+#node - value
+9	.1
+#reaction force at node 
+9
+#elements
+4
+3
+1	2   3
+3	4   5
+5	6   7
+7   8   9
+#integration points
+3
+#traction BC
+#element - face - value
+1 	1	.1  
+#body force parameter q
+1
+#Young’s modulus
+1
+
+
